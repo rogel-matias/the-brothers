@@ -1,0 +1,56 @@
+.heroSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url('/public/img/home/hero3.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  height: 90vh;
+  z-index: 0;
+}
+
+.modal {
+  position: absolute;
+
+  width: 100%;
+  height: 90vh;
+  background-color: rgba(0, 0, 0, 0.60);
+  z-index: 0;
+}
+
+.heroContent {
+  position: relative;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 600px;
+  height: 100%;
+  z-index: 2;
+}
+
+.heroContent h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.heroContent p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.ctaButton {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  background-color: #007bff; /* Color del botón, puedes cambiarlo */
+  color: #fff;
+  border-radius: 5px;
+}

@@ -1,0 +1,9 @@
+.container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  
+  min-height: 100vh;
+  background-color: rgb(111, 0, 255);
+}
